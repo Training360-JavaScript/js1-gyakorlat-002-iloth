@@ -4,3 +4,5 @@
 - A függvény szorozza meg a tömbelemek értékét 1.27-tel, majd pedig 
 __térjen vissza__ az elemek egész számra kerekített összegével!
 */
+
+const brutto = (wholeNumbers) => Math.round(wholeNumbers.reduce((sumOfBrutto, wholeNumber) => sumOfBrutto + (wholeNumber * 1.27), 0.0));
